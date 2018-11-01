@@ -12,7 +12,7 @@ public class Main {
 // THOR HERO ATTRIBUTES
         Hero thor = new Hero();
         int probDmg[] = {4,8,4,8,4,4,4,8,4,4};
-        int arrayIndex = new Random().nextInt(9);
+        int arrayIndex = new Random().nextInt(10);
         thor.hp = 15;
         thor.AtkDmg = probDmg[arrayIndex];
 
